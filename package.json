@@ -1,11 +1,11 @@
 {
-  "name": "@edx/frontend-lib-learning-assistant",
-  "version": "1.0.0-semantically-released",
+  "name": "@raccoongang/frontend-lib-learning-assistant",
+  "version": "2.0.0-tokens.2",
   "description": "A frontend library for an Open edX learning assistant.",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/frontend-lib-learning-assistant.git"
+    "url": "git+https://github.com/raccoongang/frontend-lib-learning-assistant.git"
   },
   "browserslist": [
     "extends @edx/browserslist-config"
@@ -31,12 +31,12 @@
   },
   "author": "edX",
   "license": "AGPL-3.0",
-  "homepage": "https://github.com/edx/frontend-lib-learning-assistant#readme",
+  "homepage": "https://github.com/raccoongang/frontend-lib-learning-assistant#readme",
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/edx/frontend-lib-learning-assistant/issues"
+    "url": "https://github.com/raccoongang/frontend-lib-learning-assistant/issues"
   },
   "dependencies": {
     "@edx/brand": "npm:@edx/brand-openedx@1.2.0",
@@ -52,8 +52,8 @@
     "uuid": "9.0.0"
   },
   "peerDependencies": {
-    "@edx/frontend-platform": "^7.0.0",
-    "@openedx/paragon": "^22.0.0",
+    "@edx/frontend-platform": "^7.0.0 || ^7.1.2-tokens.1",
+    "@openedx/paragon": ">= 22.0.0 < 24.0.0",
     "@reduxjs/toolkit": "1.8.1",
     "react": "16.14.0 || ^17.0.0",
     "react-dom": "16.14.0 || ^17.0.0",
@@ -65,10 +65,10 @@
   },
   "devDependencies": {
     "@edx/browserslist-config": "^1.1.1",
-    "@edx/frontend-platform": "^7.1.2",
+    "@edx/frontend-platform": "npm:@raccoongang/frontend-platform@7.1.2-tokens.2",
     "@edx/reactifex": "^2.1.1",
-    "@openedx/frontend-build": "^13.0.29",
-    "@openedx/paragon": "^22.2.0",
+    "@openedx/frontend-build": "npm:@raccoongang/frontend-build@13.1.4-tokens.2",
+    "@openedx/paragon": "23.0.0",
     "@reduxjs/toolkit": "1.8.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^12.1.5",
